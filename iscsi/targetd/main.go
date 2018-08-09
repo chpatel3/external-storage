@@ -16,7 +16,7 @@ limitations under the License.
 
 package main
 
-import "github.com/kubernetes-incubator/external-storage/iscsi/targetd/cmd"
+import "github.com/chpatel3/external-storage/iscsi/targetd/cmd"
 
 func main() {
 	cmd.Execute()

@@ -17,8 +17,8 @@ limitations under the License.
 package collectors
 
 import (
-	"github.com/kubernetes-incubator/external-storage/local-volume/provisioner/pkg/deleter"
-	"github.com/kubernetes-incubator/external-storage/local-volume/provisioner/pkg/metrics"
+	"github.com/chpatel3/external-storage/local-volume/provisioner/pkg/deleter"
+	"github.com/chpatel3/external-storage/local-volume/provisioner/pkg/metrics"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

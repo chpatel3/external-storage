@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math"
 
-	esUtil "github.com/kubernetes-incubator/external-storage/lib/util"
+	esUtil "github.com/chpatel3/external-storage/lib/util"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

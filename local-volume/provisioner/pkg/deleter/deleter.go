@@ -26,8 +26,8 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/kubernetes-incubator/external-storage/local-volume/provisioner/pkg/common"
-	"github.com/kubernetes-incubator/external-storage/local-volume/provisioner/pkg/metrics"
+	"github.com/chpatel3/external-storage/local-volume/provisioner/pkg/common"
+	"github.com/chpatel3/external-storage/local-volume/provisioner/pkg/metrics"
 
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/errors"

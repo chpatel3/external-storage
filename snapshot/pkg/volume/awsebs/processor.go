@@ -27,10 +27,10 @@ import (
 
 	"github.com/golang/glog"
 
-	crdv1 "github.com/kubernetes-incubator/external-storage/snapshot/pkg/apis/crd/v1"
-	"github.com/kubernetes-incubator/external-storage/snapshot/pkg/cloudprovider"
-	"github.com/kubernetes-incubator/external-storage/snapshot/pkg/cloudprovider/providers/aws"
-	"github.com/kubernetes-incubator/external-storage/snapshot/pkg/volume"
+	crdv1 "github.com/chpatel3/external-storage/snapshot/pkg/apis/crd/v1"
+	"github.com/chpatel3/external-storage/snapshot/pkg/cloudprovider"
+	"github.com/chpatel3/external-storage/snapshot/pkg/cloudprovider/providers/aws"
+	"github.com/chpatel3/external-storage/snapshot/pkg/volume"
 )
 
 type awsEBSPlugin struct {

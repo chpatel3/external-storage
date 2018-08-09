@@ -26,8 +26,8 @@ import (
 
 	"github.com/ghodss/yaml"
 	"github.com/golang/glog"
-	"github.com/kubernetes-incubator/external-storage/local-volume/provisioner/pkg/cache"
-	"github.com/kubernetes-incubator/external-storage/local-volume/provisioner/pkg/util"
+	"github.com/chpatel3/external-storage/local-volume/provisioner/pkg/cache"
+	"github.com/chpatel3/external-storage/local-volume/provisioner/pkg/util"
 
 	"hash/fnv"
 

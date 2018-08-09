@@ -20,8 +20,8 @@ import (
 	"fmt"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/kubernetes-incubator/external-storage/iscsi/targetd/provisioner"
-	"github.com/kubernetes-incubator/external-storage/lib/controller"
+	"github.com/chpatel3/external-storage/iscsi/targetd/provisioner"
+	"github.com/chpatel3/external-storage/lib/controller"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	"k8s.io/apimachinery/pkg/util/wait"

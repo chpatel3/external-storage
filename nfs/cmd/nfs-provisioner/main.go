@@ -22,9 +22,9 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/kubernetes-incubator/external-storage/lib/controller"
-	"github.com/kubernetes-incubator/external-storage/nfs/pkg/server"
-	vol "github.com/kubernetes-incubator/external-storage/nfs/pkg/volume"
+	"github.com/chpatel3/external-storage/lib/controller"
+	"github.com/chpatel3/external-storage/nfs/pkg/server"
+	vol "github.com/chpatel3/external-storage/nfs/pkg/volume"
 	"k8s.io/apimachinery/pkg/util/validation"
 	"k8s.io/apimachinery/pkg/util/validation/field"
 	"k8s.io/apimachinery/pkg/util/wait"

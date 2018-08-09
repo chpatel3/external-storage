@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	mayav1 "github.com/kubernetes-incubator/external-storage/openebs/types/v1"
+	mayav1 "github.com/chpatel3/external-storage/openebs/types/v1"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/kubernetes/fake"
 )

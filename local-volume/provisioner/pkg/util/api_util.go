@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/kubernetes-incubator/external-storage/local-volume/provisioner/pkg/cache"
-	"github.com/kubernetes-incubator/external-storage/local-volume/provisioner/pkg/metrics"
+	"github.com/chpatel3/external-storage/local-volume/provisioner/pkg/cache"
+	"github.com/chpatel3/external-storage/local-volume/provisioner/pkg/metrics"
 
 	batch_v1 "k8s.io/api/batch/v1"
 	"k8s.io/api/core/v1"

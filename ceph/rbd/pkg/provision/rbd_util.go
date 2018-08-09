@@ -22,8 +22,8 @@ import (
 	"strings"
 
 	"github.com/golang/glog"
-	"github.com/kubernetes-incubator/external-storage/lib/controller"
-	"github.com/kubernetes-incubator/external-storage/lib/util"
+	"github.com/chpatel3/external-storage/lib/controller"
+	"github.com/chpatel3/external-storage/lib/util"
 	"k8s.io/api/core/v1"
 )
 

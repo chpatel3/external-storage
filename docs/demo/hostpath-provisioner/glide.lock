@@ -1,6 +1,10 @@
-hash: df8b82732be70162485789ad134f71b690963c785b7cfd50847a0dcdcb2d6a44
-updated: 2017-03-29T19:20:06.393846558-04:00
+hash: 2885ad732c61ef0bead7d58167ef58d3bee4063270089f410386ea8e6135ac35
+updated: 2018-08-09T17:27:15.118255-04:00
 imports:
+- name: github.com/chpatel3/external-storage
+  version: c5e69a02cc1f9db5171efbac7284ee6f3cc0c49f
+  subpackages:
+  - lib/controller
 - name: github.com/davecgh/go-spew
   version: 5215b55f46b2b919f50a1df0eaa5886afe4e3b3d
   subpackages:
@@ -88,6 +92,10 @@ imports:
   version: 3887ee99ecf07df5b447e9b00d9c0b2adaa9f3e4
 - name: gopkg.in/yaml.v2
   version: 53feefa2559fb8dfa8d81baad31be332c97d6c77
+- name: k8s.io/api
+  version: 91bfdbcf0c2cab32ec1236cee4c300793abea68a
+  subpackages:
+  - core/v1
 - name: k8s.io/apimachinery
   version: c1c4a7fe832857c75cc1d79c8e40d71d5da15fc6
   subpackages:
