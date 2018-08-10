@@ -20,7 +20,7 @@ image: hostpath-provisioner
 	docker build -t $(IMAGE) -f Dockerfile.scratch .
 
 hostpath-provisioner: $(shell find . -name "*.go")
-	CGO_ENABLED=0 go build -a -ldflags '-extldflags "-static"' -o hostpath-provisioner .
+	GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -a -ldflags '-extldflags "-static"' -o hostpath-provisioner .
 
 .PHONY: clean
 clean:

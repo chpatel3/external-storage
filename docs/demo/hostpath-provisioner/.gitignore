@@ -1,2 +1,3 @@
 vendor/*
 hostpath-provisioner
+_novendor/
